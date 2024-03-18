@@ -1,5 +1,5 @@
 import discord
-from key import BOT_SETTING
+from secretProperties import BOT_SETTING
 
 intents = discord.Intents.default()
 intents.message_content = True
